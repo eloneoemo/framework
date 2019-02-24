@@ -6,35 +6,122 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Bootstrap</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="css/open-iconic-bootstrap.css" type="text/css">
+
     <link rel="stylesheet" href="css/style.css" type="text/css">
 </head>
 <body>
     <div class="container">
-        <div class="row bg">
-            <div class="col-lg-3 col-sm-12 text-center">
-                <img src="images/logosvg.svg" alt="">
+        <div class="row bg text-center">
+            <div class="col-lg-3 col-12">
+                <img class="img-fluid" src="images/logosvg.png" alt="">
             </div>
-            <div class="col-lg-4 offset-md-5 col-sm-12">
-                <a href="http://www.youtube.com""><div class="social youtube"></div></a>
-                <a href="http://www.facebook.com""><div class="social facebook"></div></a>
-                <a href="http://www.instagram.com""><div class="social instagram"></div></a>
-                <a href="http://www.pinterest.com""><div class="social pinterest"></div></a>
-                <a href="http://www.twitter.com""><div class="social twitter"></div></a>
+            <div class="col-lg-9 col-12 redes">
+                <div class="social youtube"><a href="#""></a></div>
+                <div class="social facebook"><a href="#""></a></div>
+                <div class="social instagram"><a href="#""></a></div>
+                <div class="social pinterest"><a href="#"></a></div>
+                <div class="social twitter"><a href="#"></a></div>
             </div>
         </div>
-        <div class="row">
-            <div class="col-lg-8 col-sm-12">
-                <div class="row">
-                    <div class="col-8">
-                        <h3>Tributo a Los Tbeatles</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore cupiditate quas ratione qui. A quos iusto minima suscipit animi? Quam tempore sint neque dolores cupiditate ullam ratione odit aspernatur asperiores.</p>
-                    </div>
-                    <div class="col-4">
-                        <img src="https://via.placeholder.com/250" alt="">
-                    </div>
-                </div>
+        <nav class="navbar-expand-md  nav-justified navbar-light bg-light menu">
+                <ul class="navbar-nav mx-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Artistas</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Grupos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Top 10</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Letras</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Acordes</a>
+                    </li>    
+                </ul>
+        </nav>
+        <div class="row bg">
+            <div class="col-lg-8">
+                <section>
+                    <article class="border-bottom my-3">
+                        <div class="row">    
+                            <div class="col-lg-8 text-justify order-lg-1">
+                                <h3>Tributo a Los Tbeatles</h3>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda nisi aspernatur dignissimos nesciunt nemo a maiores maxime quod numquam voluptate, animi unde quae ad ipsam architecto, doloribus possimus dolorum nobis!
+                                Ullam eveniet doloribus distinctio! Non blanditiis autem ad officia numquam! Laudantium molestias error ullam in, ratione possimus illo dolorem veniam nisi voluptas magni labore distinctio illum numquam placeat modi quae?</p>
+                            </div>
+                            <div class="col-lg-4 order-lg-2">
+                                <img class="img-fluid" src="https://via.placeholder.com/800" alt="">
+                            </div>
+                        </div>
+                        <div class="row my-3">
+                            <span class="oi oi-person coment col-3 col-lg-2" title="person genderless" aria-hidden="true"></span>
+                            <div class="form-group col-9 col-lg-10">
+                                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="border-bottom my-3">
+                        <div class="row">    
+                            <div class="col-lg-8 text-justify order-lg-2">
+                                <h3>Tributo a Los Tbeatles</h3>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda nisi aspernatur dignissimos nesciunt nemo a maiores maxime quod numquam voluptate, animi unde quae ad ipsam architecto, doloribus possimus dolorum nobis!
+                                Ullam eveniet doloribus distinctio! Non blanditiis autem ad officia numquam! Laudantium molestias error ullam in, ratione possimus illo dolorem veniam nisi voluptas magni labore distinctio illum numquam placeat modi quae?</p>
+                            </div>
+                            <div class="col-lg-4 order-lg-1">
+                                <img class="img-fluid" src="https://via.placeholder.com/800" alt="">
+                            </div>
+                        </div>
+                        <div class="row my-3">
+                            <span class="oi oi-person coment col-3 col-lg-2" title="person genderless" aria-hidden="true"></span>
+                            <div class="form-group col-9 col-lg-10">
+                                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                            </div>
+                        </div>
+                    </article>
+                </section>    
             </div>
-            <div class="col-lg-4">2</div>
+            <div class="col-lg-4">
+                <section>
+                    <form>
+                        <div class="form-row align-items-center my-3">
+                            <div class="col-12">
+                                <label class="sr-only" for="buscar">Buscar por...</label>
+                                <div class="input-group">
+                                    <div class="input-group-prepend">
+                                        <div class="input-group-text">
+                                                <span class="oi oi-magnifying-glass" title="buscar" aria-hidden="true"></span>
+                                        </div>
+                                    </div>
+                                    <input type="text" class="form-control" id="buscar" placeholder="Buscar por...">
+                                </div>
+                                <table class="table table-hover my-2">
+                                    <tr><td>Juan Luis Guerra</td></tr>
+                                    <tr><td>El Mayor Clasico</td></tr>
+                                    <tr><td>Lirico En La Casa</td></tr>
+                                    <tr><td>El Super Nuevo</td></tr>
+                                    <tr><td>Romeo Santos</td></tr>
+                                    <tr><td>Bad Bunny</td></tr>
+                                    <tr><td>Bryant Myers</td></tr>
+                                    <tr><td>Joe Veras</td></tr>
+                                    <tr><td>Frank Reyes</td></tr>
+                                    <tr><td>Anthony Santos</td></tr>
+                                    <tr><td>Joskar Sarante</td></tr>
+                                    <tr><td>Yiyo Sarante</td></tr>
+                                    <tr><td>Luis Vargas</td></tr>
+                                </table>
+                            </div>
+                        </div>
+                    </form> 
+                </section>
+            </div>
         </div>
     </div><!--Container-->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>

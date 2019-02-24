@@ -15,7 +15,10 @@
    version="1.1"
    id="svg8"
    inkscape:version="0.92.2 5c3e80d, 2017-08-06"
-   sodipodi:docname="logosvg.svg">
+   sodipodi:docname="logosvg.svg"
+   inkscape:export-filename="/Users/josuecespedes/Documents/GitHub/framework/bootstrap/images/logosvg.png"
+   inkscape:export-xdpi="96"
+   inkscape:export-ydpi="96">
   <defs
      id="defs2" />
   <sodipodi:namedview
@@ -26,8 +29,8 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="0.7"
-     inkscape:cx="-448.52285"
-     inkscape:cy="189.50846"
+     inkscape:cx="522.90572"
+     inkscape:cy="-153.34868"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -45,7 +48,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title />
+        <dc:title></dc:title>
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -54,24 +57,6 @@
      inkscape:groupmode="layer"
      id="layer1"
      transform="translate(-61.975242,-136.95719)">
-    <path
-       sodipodi:type="star"
-       id="path3705"
-       sodipodi:sides="5"
-       sodipodi:cx="107.72321"
-       sodipodi:cy="154.88095"
-       sodipodi:r1="49.82552"
-       sodipodi:r2="24.91276"
-       sodipodi:arg1="0.90908782"
-       sodipodi:arg2="1.5374064"
-       inkscape:flatsided="false"
-       inkscape:rounded="0"
-       inkscape:randomized="0"
-       d="m 138.33928,194.19047 -29.78439,-14.41065 -28.756369,16.36606 4.50146,-32.77978 -24.451247,-22.29155 32.566445,-5.84836 13.644671,-30.14299 15.62571,29.16529 32.88412,3.66216 -22.90923,23.8735 z"
-       inkscape:transform-center-x="0.16489929"
-       inkscape:transform-center-y="-1.3651867"
-       style="fill:#600000;fill-opacity:1;stroke-width:0.48202533"
-       transform="matrix(0.32080964,0,0,0.31998439,51.711215,110.30794)" />
     <ellipse
        id="path3707"
        cx="86.745529"
@@ -79,32 +64,56 @@
        rx="65.20089"
        ry="62.744045"
        style="fill:none;stroke-width:0.26458332" />
-    <ellipse
-       style="opacity:0.712;fill:none;stroke:#00a000;stroke-width:6.63383913;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.90476191"
-       ry="20.077114"
-       rx="20.917074"
-       cy="160.35123"
-       cx="86.209236"
-       id="ellipse3709" />
-    <ellipse
-       style="opacity:1;fill:none;fill-opacity:0.88095236;stroke:#ffffff;stroke-width:2.31440139;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       id="path4516"
-       cx="86.391113"
-       cy="160.47217"
-       rx="4.8503361"
-       ry="4.8378592" />
-    <flowRoot
-       xml:space="preserve"
-       id="flowRoot4518"
-       style="font-style:normal;font-weight:normal;font-size:40px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
-       transform="matrix(0.15443935,0,0,0.15443935,56.745863,42.84468)"><flowRegion
-         id="flowRegion4520"><rect
-           id="rect4522"
-           width="326.06891"
-           height="56.290398"
-           x="82.808578"
-           y="910.59961" /></flowRegion><flowPara
-         id="flowPara4524">SoundStar<flowSpan
-   style="font-size:26.66666794px"
-   id="flowSpan4526">.jc</flowSpan></flowPara></flowRoot>  </g>
+    <g
+       id="g46">
+      <path
+         transform="matrix(0.32080964,0,0,0.31998439,51.711215,110.30794)"
+         style="fill:#600000;fill-opacity:1;stroke-width:0.48202533"
+         inkscape:transform-center-y="-1.3651867"
+         inkscape:transform-center-x="0.16489929"
+         d="m 138.33928,194.19047 -29.78439,-14.41065 -28.756369,16.36606 4.50146,-32.77978 -24.451247,-22.29155 32.566445,-5.84836 13.644671,-30.14299 15.62571,29.16529 32.88412,3.66216 -22.90923,23.8735 z"
+         inkscape:randomized="0"
+         inkscape:rounded="0"
+         inkscape:flatsided="false"
+         sodipodi:arg2="1.5374064"
+         sodipodi:arg1="0.90908782"
+         sodipodi:r2="24.91276"
+         sodipodi:r1="49.82552"
+         sodipodi:cy="154.88095"
+         sodipodi:cx="107.72321"
+         sodipodi:sides="5"
+         id="path3705"
+         sodipodi:type="star" />
+      <ellipse
+         id="ellipse3709"
+         cx="86.209236"
+         cy="160.35123"
+         rx="20.917074"
+         ry="20.077114"
+         style="opacity:0.712;fill:none;stroke:#00a000;stroke-width:6.63383913;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.90476191" />
+      <ellipse
+         ry="4.8378592"
+         rx="4.8503361"
+         cy="160.47217"
+         cx="86.391113"
+         id="path4516"
+         style="opacity:1;fill:none;fill-opacity:0.88095236;stroke:#ffffff;stroke-width:2.31440139;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <flowRoot
+         inkscape:export-ydpi="96"
+         inkscape:export-xdpi="96"
+         transform="matrix(0.15443935,0,0,0.15443935,56.745863,42.84468)"
+         style="font-style:normal;font-weight:normal;font-size:40px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;image-rendering:optimizeQuality"
+         id="flowRoot4518"
+         xml:space="preserve"><title
+           id="title16">text</title><flowRegion
+           id="flowRegion4520"><rect
+             y="910.59961"
+             x="82.808578"
+             height="56.290398"
+             width="326.06891"
+             id="rect4522" /></flowRegion><flowPara
+           id="flowPara4524">SoundStar<flowSpan
+   id="flowSpan4526"
+   style="font-size:26.66666794px">.jc</flowSpan></flowPara></flowRoot>    </g>
+  </g>
 </svg>
