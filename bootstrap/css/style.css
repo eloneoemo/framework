@@ -1,5 +1,5 @@
 body{
-    background-color: #1E49B2;
+    background-color: #190CE8;
 }
 .social{
     height: 50px;
@@ -33,6 +33,9 @@ body{
 .bg{
     background-color:rgb(255, 253, 249);
 }
+.bg-menu{
+    background-color: #E8AD0C;
+}
 .coment{
     font-size: 5em;
 }
@@ -41,5 +44,5 @@ body{
     margin-right: -15px;
 }
 .menu-over li:hover{
-    background-color: #ccc;
+    background-color: #F7B80D;
 }
