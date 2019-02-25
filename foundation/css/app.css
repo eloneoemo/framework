@@ -1,0 +1,10 @@
+
+body{
+    background-image: url(../images/bg.jpg);
+    background-position: center;
+    background-attachment: fixed;
+    background-size: 100%;
+}
+.bg-dark{
+    background-color: rgba(0, 0, 0, 0.5)
+}
