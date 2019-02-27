@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Blog de Turismo</title>
+    <link rel="stylesheet" href="css/materialize.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="css/app.css">
+</head>
+<body>
+<div class="container">
+    <header>        
+            <nav>
+                <div class="nav-wrapper">
+                <a href="#!" class="brand-logo"><i class="material-icons">cloud</i>Logo</a>
+                <ul class="right hide-on-med-and-down">
+                    <li><a class="waves-effect waves-light btn"><i class="material-icons left">home</i>Inicio</a></li>
+                    <li><a class="waves-effect waves-light btn"><i class="material-icons left">location_on</i>Estuve en...</a></li>
+                    <li><a class="waves-effect waves-light btn"><i class="material-icons left">star</i>Mejores Viajes</a></li>
+                    <li><a class="waves-effect waves-light btn"><i class="material-icons left">mode_comment</i>Recomendaciones</a></li>
+                </ul>
+                <ul class="right hide-on-large-only">
+                    <li><a class="waves-effect waves-light btn"><i class="material-icons left">home</i></a></li>
+                    <li><a class="waves-effect waves-light btn"><i class="material-icons left">location_on</i></a></li>
+                    <li><a class="waves-effect waves-light btn"><i class="material-icons left">star</i></a></li>
+                    <li><a class="waves-effect waves-light btn"><i class="material-icons left">mode_comment</i></a></li>
+                </ul>
+                </div>
+            </nav>
+        
+    </header>
+</div>
+<script src="js/materialize.min.js"></script>
+<script type="text/javascript">
+document.addEventListener('DOMContentLoaded', function() {
+    var elems = document.querySelectorAll('.sidenav');
+    var instances = M.Sidenav.init(elems, options);
+  });
+
+  // Or with jQuery
+
+  $(document).ready(function(){
+    $('.sidenav').sidenav();
+  });
+   </script>
+</body>
+</html>
