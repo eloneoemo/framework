@@ -2,7 +2,8 @@ body{
     background-color: #334326;
     background-image: url(../images/bg.jpg);
     background-repeat: no-repeat;
-    background-size: 100%;
+    background-position: fixed;
+    background-size: 100% 100%;
 }
 .social{
     height: 50px;
@@ -26,4 +27,10 @@ body{
 }
 .twitter{
     background-position: -204px 0;
+}
+article{
+    margin-top: 1em;
+}
+.articulo{
+    margin: 1em;
 }
