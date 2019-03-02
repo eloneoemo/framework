@@ -2,7 +2,7 @@ body{
     background-color: #334326;
     background-image: url(../images/bg.jpg);
     background-repeat: no-repeat;
-    background-position: fixed;
+    background-attachment: fixed;
     background-size: 100% 100%;
 }
 .social{
@@ -33,4 +33,7 @@ article{
 }
 .articulo{
     margin: 1em;
+}
+.sub{
+    color: white;
 }
