@@ -4,30 +4,24 @@ body{
 .social{
     height: 50px;
     width: 50px;
-    margin: auto;
+    margin-top: auto;
     float: left;
-}
-.social-feeds{
-    list-style-type: none;
-}
-.youtube{
     background-image: url(../images/social-feeds.png);
+}
+
+.youtube{    
     background-position: 0 0;
 }
 .facebook{
-    background-image: url(../images/social-feeds.png);
     background-position: -51px 0px;
 }
 .instagram{
-    background-image: url(../images/social-feeds.png);
     background-position: -102px 0;
 }
 .pinterest{
-    background-image: url(../images/social-feeds.png);
     background-position: -153px 0;
 }
 .twitter{
-    background-image: url(../images/social-feeds.png);
     background-position: -204px 0;
 }
 .bg{

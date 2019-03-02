@@ -1,5 +1,29 @@
 body{
+    background-color: #334326;
     background-image: url(../images/bg.jpg);
     background-repeat: no-repeat;
     background-size: 100%;
+}
+.social{
+    height: 50px;
+    width: 50px;
+    margin: 1em 1em 1em 0;
+    float: left;
+    background-image: url(../images/social-feeds.jpg);
+}
+
+.youtube{    
+    background-position: 0 0;
+}
+.facebook{
+    background-position: -51px 0px;
+}
+.instagram{
+    background-position: -102px 0;
+}
+.pinterest{
+    background-position: -153px 0;
+}
+.twitter{
+    background-position: -204px 0;
 }
